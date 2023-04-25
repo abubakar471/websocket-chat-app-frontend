@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.scss";
 import io from "socket.io-client";
 import axios from 'axios';
 
-const socket = io(process.env.NEXT_PUBLIC_SOCKETIO, { path: "/socket.io" }, {
+const socket = io('https://web-socket-chat-app-backend.onrender.com', { path: "/socket.io" }, {
   reconnection: true
 })
 
