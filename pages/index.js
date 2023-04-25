@@ -121,6 +121,9 @@ const Home = () => {
             placeholder='message' value={message} />
           <button type="submit">send</button>
         </form>
+        <footer className={styles.footer}>
+          <p>developed by muhammad abu bakar siddique | <a href="mailto:abdurjoy2001@gmail.com">send email</a> </p>
+        </footer>
       </div>
     </>
   )
