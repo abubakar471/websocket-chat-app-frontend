@@ -1,0 +1,64 @@
+.container {
+  width: 50%;
+  margin: 0px auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Comic sans ms', sans-serif;
+  background-color: rgb(8, 117, 180);
+  color: white;
+}
+
+.messages__container {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.noMessageTitle {
+  font-family: cursive, Helvetica, sans-serif;
+  color: cadetblue;
+  margin-top: 5px;
+}
+
+.typingUser {
+  color: darkcyan;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: cursive;
+}
+
+.username {
+  color: rgb(8, 117, 180);
+  font-family: cursive;
+}
+
+.message {
+  font-family: cursive;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  input {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.9);
+    outline: none;
+  }
+
+  button {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0cap;
+    outline: none;
+    background: rgb(8, 117, 180);
+    color: white;
+    cursor: pointer;
+  }
+}
